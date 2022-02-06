@@ -11,6 +11,6 @@ let isSingle: boolean = true
 //isSingle = "foo"
 console.log("primitive sample 3:", typeof isSingle,isSingle)
 
-const isOver20:boolean = age >= 20
+const isOver20: boolean = age >= 20
 console.log("primitive sample 4:", typeof isOver20,isOver20)
 }

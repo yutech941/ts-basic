@@ -5,7 +5,9 @@
 // world.sayHello(root)
 
 //基本の型定義
-import { notExistSample, primitiveSample } from "./basic";
+import {anySample, notExistSample, primitiveSample, unknownSample} from "./basic";
 
+anySample()
 notExistSample()
 primitiveSample()
+unknownSample()
