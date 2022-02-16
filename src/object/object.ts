@@ -22,5 +22,24 @@ export default function objectSample(){
     }
 
     console.log("Object object sample2:", country);
+
+    //オプショナルとreadonly
+    const kimetu: {
+        age:number
+        lastName:string
+        readonly firstName:string
+        gender?:string
+    } = {
+        age:28,
+        lastName:"Yamada",
+        firstName:"Tarou"
+    }
+
+    kimetu.gender = 'male'
+    kimetu.lastName = 'Kamado'
+    //kimetu.firstName = "Tanjiro"
+
+    console.log("Object object sample3",kimetu);
+    
     
 }

@@ -26,3 +26,16 @@
 //オブジェクトの型定義
 import objectSample from "./object/object";
 objectSample();
+
+//インデックスシグネチャ
+const capitals: {
+    [coutryName:string]:string
+} = {
+Japan:'Tokyo',
+Korea:'Seoul'
+}
+
+capitals.China = 'Beijing'
+capitals.Canada = 'Ottawa'
+
+console.log("Object object sample4",capitals);
