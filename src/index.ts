@@ -25,7 +25,9 @@
 
 //オブジェクトの型定義
 import objectSample from "./object/object";
+import typeAiliasSample from "./object/ailias"
 objectSample();
+typeAiliasSample();
 
 //インデックスシグネチャ
 const capitals: {
