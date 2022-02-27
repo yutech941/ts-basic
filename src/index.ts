@@ -24,20 +24,26 @@
 // console.log('Function parameters sample 5:', sum);
 
 //オブジェクトの型定義
-import objectSample from "./object/object";
-import typeAiliasSample from "./object/ailias"
-objectSample();
-typeAiliasSample();
+// import objectSample from "./object/object";
+// import typeAiliasSample from "./object/ailias"
+// objectSample();
+// typeAiliasSample();
 
-//インデックスシグネチャ
-const capitals: {
-    [coutryName:string]:string
-} = {
-Japan:'Tokyo',
-Korea:'Seoul'
-}
+// //インデックスシグネチャ
+// const capitals: {
+//     [coutryName:string]:string
+// } = {
+// Japan:'Tokyo',
+// Korea:'Seoul'
+// }
 
-capitals.China = 'Beijing'
-capitals.Canada = 'Ottawa'
+// capitals.China = 'Beijing'
+// capitals.Canada = 'Ottawa'
 
-console.log("Object object sample4",capitals);
+// console.log("Object object sample4",capitals);
+
+//06.配列とダブルの型定義
+import arraySample from "./array/array";
+import tupleSample from "./array/tuple"
+arraySample()
+tupleSample()
