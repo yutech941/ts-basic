@@ -50,4 +50,6 @@
 
 // 07.ジェネリック型とポリモーフィズム
 import genericsBasicSample from "./generics/basic";
+import genericsAdvancedSample from "./generics/advenced";
 genericsBasicSample()
+genericsAdvancedSample()
